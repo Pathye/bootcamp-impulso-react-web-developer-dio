@@ -1,0 +1,54 @@
+=====================================================================================
+Tipos de Operadores Javascript ======================================================
+
+(=).....Atribuição
+(+=).....Atribuição de adição
+(-=).....Atribuição de subtração
+(*=).....Atribuição de multiplicação
+(/=).....Atribuição de divisão
+(%=).....Atribuição de resto
+(**=).....Atribuição exponencial
+(<<=).....Atribuição bit-a-bit por deslocamento á esquerda
+(>>=).....Atribuição bit-a-bit por deslocamento á direita
+(>>>=).....Atribuiçãode bit-a-bit deslocamento á direita não assinado
+(&=).....Atribuição AND bit-a-bit
+(^=).....Atribuição XOR bit-a-bit
+(|=).....Atribuição OR bit-a-bit
+(==).....Igual
+(!=).....Diferente
+(===).....Estritamente igual
+(!==).....Estritamente diferente
+(>).....Maior que
+(>=).....Maior que ou igual
+(<).....Menor que
+(<=).....Menor que ou igual
+(%).....Módulo
+(++).....Incremento
+(--).....Decremento
+(-).....Negação
+(+).....Adição
+(**).....Operador de exponenciação
+(a&b).....AND
+(a|b).....OR
+(a^b).....XOR
+(~a).....NOT
+(<<).....Deslocamento à esquerda	
+(>>).....Deslocamento à direita com propagação de sinal
+(>>>).....Deslocamento à direita com preenchimento zero
+(&&).....AND lógico
+(||).....OU lógico
+(!).....NOT lógico
+
+=====================================================================================
+Condicional (ternário) ==============================================================
+
+
+   _______________false_______
+  |   ____true____            |
+  |  |            |           |
+(condição) ? expressão1 : expressão2 
+
+é a mesma coisa que ->  if (condição)
+                            demonstração;
+                        else
+                            demonstração;
