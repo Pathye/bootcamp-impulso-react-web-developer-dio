@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="/img/Logotipo.png">
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+    <title>Bootstrap</title>
+</head>
+<body style="background-color: gainsboro;">
+
+    <!--  BARRA DE NAVEGAÇÃO PRINCIPAL -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white">
+        <div class="btn-group">
+          <a class="navbar-brand">
+            <h1 class="nav-item btn">
+              <img src="/img/Logotipo.PNG" alt="" width="50%">
+            </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item btn" style="background-color: rgba(0,0,0,.1);">
+                <a class="nav-link active" aria-current="page" href="#" style="width: 110px;">INÍCIO</a>
+              </li>
+              <li class="nav-item">
+                  <a a class="nav-link" style="width: 20px;"></a>
+              </li>
+              <li class="nav-item btn" style="background-color: rgba(0,0,0,.1);">
+                <a class="nav-link" href="#" style="width: 110px;">LOJA</a>
+              </li>
+              <li class="nav-item">
+                <a a class="nav-link" style="width: 20px;"></a>
+              </li>
+              <li class="nav-item dropdown btn" style="background-color: rgba(0,0,0,.1);">
+                <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  MAIS OPÇÕES...
+                </a>
+                <ul class="dropdown-menu dropdown-menu-lighter" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Aventura</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a a class="nav-link" style="width: 20px;"></a>
+              </li>
+              <li class="nav-item">
+                <a a class="nav-link" style="width: 50px;"></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><img class="nav-item" src="/img/login.png" alt="" srcset="" style="width: 50px;" title="Minha conta"></a>
+              </li>
+              <li class="nav-item">
+                <a a class="nav-link" style="width: 50px;"></a>
+              </li>
+              <li class="nav-item">
+                <img src="/img/carrinho-de-compras.png" alt="" class="nav-item" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="width: 50px;" title="Carrinho de compras">>
+              </li>
+              <li class="nav-item">
+                <a a class="nav-link" style="width: 20px;"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Procure um livro..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CARRINHO DE COMPRAS -->
+      
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Carrinho</h5>
+          <a><img src="/img/lixo.png" type="button" class="btn" title="Remover" style="width: 20%; margin-left: 200px;"></a>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" title="Fechar" ></button>
+        </div>
+        <div class="offcanvas-body" style="display: flex;">
+          <img src="/img/5.jpg" alt="" style="width: 40%; height: 40%;">
+          <span style="margin-left: 20px;">
+            <h6 style="font-size: 14px;">Você possui em suas mãos o cobiçado diário do autor da série Gravity Falls, um tesouro de 288 páginas coloridas e sem dono, com segredos nunca antes revelados, monstros e mistérios da pacata cidade do Tivô Stan.
+                Com ele, você irá aprender a trágica história de Ford, o paradeiro de Blendin, qual é a Dimensão 52 e como atrair um “ornitorrinco xadrez”.            
+            </h6>
+          </span>
+        </div>
+        <button class="btn" style="background-color: rgba(0,0,0,.1);;">Comprar</button>
+      </div>
+</body>
+</html>
