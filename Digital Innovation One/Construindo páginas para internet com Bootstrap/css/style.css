@@ -1,4 +1,22 @@
-textocarrinho{
-    align-items: center;
-    margin-left: 30px;
+.quem-somos{
+    text-align: center;
+    background-color:rgba(139, 220, 132, .5);
+    height: 10px;
+}
+
+.welcome{
+    border-radius: 2rem;
+    margin-top: 50px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.welcome-img{
+    margin-top: 70px; 
+    margin-right: 100px;
+    margin-bottom:60px ;
+}
+
+.welcome-img-2{
+    margin-top: 240px;
 }
